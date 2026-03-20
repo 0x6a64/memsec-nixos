@@ -1,7 +1,7 @@
 # MEMSEC DEFCON 901 - Reproducible Cybersecurity Labs with Nix/NixOS
 ## Links
-- Google Slides
+- [Google Slides](https://docs.google.com/presentation/d/1ZMD2qqvC_lNjxgHcgkHcSmFm7GKk3nHiLQejDzHepBA/edit?usp=sharing)(Most up-to-date source, incl. slide notes)
 
-PDF in repo
+PDF/PPTX in repo
 
 Other artifacts will be uploaded here if relevant
