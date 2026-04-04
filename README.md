@@ -30,7 +30,9 @@ During the live presentation, two VM build demos failed:
 ### Command run
 
 ```sh
-nixos-rebuild build-vm && nixos-rebuild build-vm .
+nixos-rebuild build-vm
+
+nixos-rebuild build-vm .
 ```
 
 ### Error
