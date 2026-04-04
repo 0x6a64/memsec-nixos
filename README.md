@@ -51,7 +51,7 @@ error: file 'nixos-config' was not found in the Nix search path (add it using $N
 nixos-rebuild build-vm --flake .#live-iso
 ```
 
-However, this would have hit a **second issue**: the `live-iso` configuration imports `installation-cd-minimal.nix`, which is an ISO installer module — not a VM-compatible system configuration. The ISO module defines `system.build.isoImage`, not `system.build.vm`.
+However, this would have hit a **second issue**: the `live-iso` configuration imports `installation-cd-minimal.nix`, which is an ISO installer module and not a VM-compatible system configuration. The ISO module defines `system.build.isoImage`, not `system.build.vm`.
 
 ### Fix
 
